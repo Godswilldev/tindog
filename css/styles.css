@@ -1,6 +1,6 @@
 body{
     font-family:'Montserrat', sans-serif;
-    background-color: beige;
+    background-color: #ececec;
 }
 
 #title{
@@ -72,7 +72,7 @@ p{
 /* features */
 #features{
     padding: 7% 15%;
-    background-color: beige;
+    background-color: #ececec;
     position: relative;
 }
 
@@ -146,7 +146,7 @@ p{
     color: #ef8172;
 }
 .card-body{
-    background-color: beige;
+    background-color: #ececec;
 }
 
 /* call to action */
@@ -165,7 +165,7 @@ p{
 #footer{
     text-align: center;
     margin-top: 1.5rem;
-    background-color: beige;
+    background-color: #ececec;
     color: #ef8172;
 }
 
