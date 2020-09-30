@@ -1,32 +1,41 @@
 body{
     font-family:'Montserrat', sans-serif;
     background-color: #ececec;
+    text-align: center;
 }
 
-#title{
-    background-color: #ef8172;
-    color: #fff;
-}
-
-h1{
+h1, h2, h3, body{
     font-family: 'Montserrat', sans-serif;
-    font-size: 3rem;
-    line-height: 1.5;
-    font-weight: 800;
 }
 h2{
-    font-family: 'Montserrat', sans-serif;
+    
     font-size: 2rem;
     line-height: 1.5;
     font-weight: 550;
 }
 h3{
-    font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
     font-weight: 550;
 }
 p{
     color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 800;
+}
+.coloured-section{
+    background-color: #ef8172;
+}
+
+
+
+#title{
+    color: #fff;
+    text-align: left;
 }
 
 .container-fluid{
@@ -76,9 +85,6 @@ p{
     position: relative;
 }
 
-.feature-box{
-    text-align: center;
-}
 .icon{
     font-size: 3rem;
     color: #ef8172;
@@ -87,8 +93,6 @@ p{
 
 /* Testimonials */
 #testimonials{
-    text-align: center;
-    background-color: #ef8172;
     color: #fff;
 }
 .testimonial-image{
@@ -103,8 +107,6 @@ p{
 /* Press Section */
 #press{
     height: 15rem;
-    text-align: center;
-    background-color: #ef8172;
     padding-bottom: 3%;
 }
 .press-icons{
@@ -116,7 +118,6 @@ p{
 /* Pricing */
 #pricing{
     padding: 7% 15%;
-    text-align: center;
 }
 
 .pricing-column{
@@ -152,7 +153,6 @@ p{
 /* call to action */
 #cta{
     padding: 3% 15%;
-    text-align: center;
     background-color: #ef8172;
 }
 
@@ -163,7 +163,6 @@ p{
 
 /* footer */
 #footer{
-    text-align: center;
     margin-top: 1.5rem;
     background-color: #ececec;
     color: #ef8172;
@@ -188,7 +187,7 @@ p{
         text-align: center;
     }
     h1{
-        font-family: 'Montserrat', sans-serif;
+
         font-size: 2.5rem;
         line-height: 1.5;
         font-weight: 600;
@@ -224,8 +223,8 @@ p{
     }
     #press{
         height: 12rem;
-        text-align: center;
-        background-color: #ef8172;
+
+
         padding-bottom: 3%;
     }
     .press-icons{
@@ -234,7 +233,7 @@ p{
         padding-left: 3rem;
     }
     h2{
-        font-family: 'Montserrat', sans-serif;
+
         font-size: 1.2rem;
         line-height: 1.5;
         font-weight: 501;
@@ -248,5 +247,3 @@ p{
         font-size: 1.5rem;
     }
 }
-
-
